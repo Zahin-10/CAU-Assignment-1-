@@ -26,6 +26,9 @@ public class Main {
             case 2:
                 startArrayToLinkedlist();
                 break;
+            case 6:
+                removeItem();
+                break;
         }
     }
 
@@ -47,8 +50,10 @@ public class Main {
         runProgram(array);
     }
 
-    public static void insertSortedly(){
-
+    public static void removeItem(){
+        Scanner sc = new Scanner(System.in);
+        String item = sc.nextLine();
+        list.removeValue(item);
     }
 
     public static void startQuickSort(String[] data){
