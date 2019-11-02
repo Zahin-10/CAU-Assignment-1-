@@ -26,7 +26,7 @@ public class Main {
             case 2:
                 startArrayToLinkedlist();
                 break;
-            case 6:
+            case 5:
                 removeItem();
                 break;
         }
